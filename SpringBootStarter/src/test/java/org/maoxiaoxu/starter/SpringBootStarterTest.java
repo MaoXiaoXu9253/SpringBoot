@@ -14,7 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringBootStarterTest {
 
   @Test
-  public void base(){
+  public void base () {
     log.info("========== base start ==========");
     log.info("========== base end ==========");
   }
