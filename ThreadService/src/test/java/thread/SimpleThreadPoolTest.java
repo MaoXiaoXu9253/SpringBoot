@@ -66,7 +66,7 @@ class SimpleThreadPoolTest {
       int increment = Runnables.taskNumber.getAndIncrement();
       try {
         log.info("taskNumber-[{}]-start", increment);
-        int nextInt = new Random().nextInt(25, 45);
+        int nextInt = new Random().nextInt(45);
         TimeUnit.SECONDS.sleep(nextInt);
       } catch (InterruptedException e) {
         log.warn("taskNumber-[{}]-error", increment, e);

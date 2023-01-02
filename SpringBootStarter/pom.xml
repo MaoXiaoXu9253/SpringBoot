@@ -6,11 +6,11 @@
   <artifactId>SpringBootStarter</artifactId>
 
   <modelVersion>4.0.0</modelVersion>
-
+  
   <parent>
     <artifactId>SpringBoot</artifactId>
     <groupId>org.maoxiaoxu</groupId>
-    <version>20220919</version>
+    <version>20230101</version>
   </parent>
 
 

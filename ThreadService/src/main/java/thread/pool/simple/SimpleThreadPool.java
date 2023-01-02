@@ -49,7 +49,6 @@ import thread.pool.AbstractThreadPool;
  *      当接收的任务数量超出 corePoolSize数量时，则新任务可以被无限制地缓存到该阻塞队列中，直到资源耗尽。
  *      无界队列：Executors.newSingleThreadExecutor、Executors.newFixedThreadPool
  *      </p>
- *      // TODO
  *     <li>BlockingQueue==LinkedBlockingDeque(MaximumPoolSize)</li>
  *     线程工厂
  *     <li>ThreadFactory==SimpleThreadFactory</li>

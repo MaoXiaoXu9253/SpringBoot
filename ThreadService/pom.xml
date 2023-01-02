@@ -10,7 +10,7 @@
   <parent>
     <artifactId>SpringBoot</artifactId>
     <groupId>org.maoxiaoxu</groupId>
-    <version>20220919</version>
+    <version>20230101</version>
   </parent>
 
 

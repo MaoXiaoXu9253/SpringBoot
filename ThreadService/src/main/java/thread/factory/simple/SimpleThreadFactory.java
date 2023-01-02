@@ -2,7 +2,6 @@ package thread.factory.simple;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * 简单线程池工厂
@@ -10,7 +9,6 @@ import lombok.extern.slf4j.Slf4j;
  * @author maoxiaoxu
  * @version 1.0
  */
-@Slf4j
 public final class SimpleThreadFactory implements ThreadFactory {
 
   /**
